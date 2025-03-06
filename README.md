@@ -30,12 +30,6 @@ Kids Quizzland is a vibrant and engaging platform where kids can explore and lea
 
 ![screenshots](./images/homepage/dark-theme.png)
 
-## Contributors
-
- <a href="https://github.com/Rutuja20Sanap/icp-8.0-html-css-js-group-project-3/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Rutuja20Sanap/icp-8.0-html-css-js-group-project-3" />
-</a>
-
 ## Support
 
 **If you find our projects helpful or interesting, consider giving them a ⭐ it means our lot of us!!!**
