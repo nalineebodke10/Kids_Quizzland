@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--header section start -->
+
+    <body id="body" class="light-theme">
+        <header class="header">
+            <div class="container">
+                <div class="animative-movement">
+                    <span id="name1">K</span><span id="name2">I</span><span id="name3">D</span><span id="name4">S</span>
+                </div>
+                <h2>Quizzland</h2>
+            </div>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="./pages/aboutus.html">About</a>
+                <div class="dropdown">
+                    <a class="dropbtn" href="#">Quizz Category<i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="pages/educational-quizz.html">Educational Quizz</a>
+                        <a href="pages/fun-quizz.html">Fun Quizz</a>
+                        <a href="pages/gk-quizz.html">General Knowledge Quizz</a>
+                    </div>
+                </div>
+                <a href="pages/contactus.html">Contact Us</a>
+                <a href="pages/feedback.html">Feedback</a>
+            </nav>
+
+            <div class="icons">
+                <a href="pages/sign.html">
+                    <div class="fas fa-user" id="login-btn"></div>
+                </a>
+            </div>
+            <div class="nav__logo">
+                <a href="#">
+                    <img src="icon/moon.png" alt="dark mode" class="logo-dark" id="dark-logo" onclick="toggleTheme()" />
+                    <img src="icon/sun.png" alt="light mode" class="logo-light" id="light-logo" onclick="toggleTheme()" />
+                </a>
+            </div>
+            <div class="sidebar" id="sidebar">
+                <div class="close-btn" id="close-btn">
+                    <img src="icon/arrow.png" alt="Close" width="30px">
+                </div>
+                <nav class="sidebar-navbar">
+                    <a class="menu-item active-menu" href="./index.html"> 
+                        <img src="icon/home.png" class="menu-icon" alt="img">
+                        <span class="menu-text">Home</span></a>
+                    <a class="menu-item" href="./pages/aboutus.html">
+                        <img src="icon/aboutus.png" class="menu-icon" alt="img">
+                        <span class="menu-text">AboutUs</span>
+                    </a>
+                    <a class="menu-item" href="./pages/quizz-list.html">
+                        <img src="icon/quizz.png" class="menu-icon" alt="img">
+                        <span class="menu-text">Quizz-List</span>
+                    </a>
+                    <a class="menu-item" href="./pages/contactus.html">
+                        <img src="icon/contact-us.png" class="menu-icon" alt="img">
+                        <span class="menu-text">Contact</span>
+                    </a>
+                    <a class="menu-item" href="./pages/feedback.html">
+                        <img src="icon/feedback.png" class="menu-icon" alt="img">
+                        <span class="menu-text">Feedback</span>
+                    </a>
+                </nav>
+            </div>
+
+            <!-- Open Sidebar Menu Button -->
+            <div class="menu-open" id="menu-open">
+                <img src="icon/menus.png" alt="Menu" width="30px">
+            </div>
+        </header>
+        <!--header section end-->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>welcome to our <span>Kids Queezland <br>For 6 to 15 years kids!!!</span></h3>
+                <a href="pages/quizz-list.html" class="btn">Learn more</a>
+            </div>
+            <div class="image">
+                <img src="images/homepage/bg.png" alt="">
+            </div>
+            <div class="custom-shape-divider-bottom-1684324473">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h1 class="heading"> <span>LET YOUR CHILD LEARN AND EXPLORE THE WORLD!</span>
+                <div class="row">
+                    <div class="image">
+                        <img src="images/homepage/about us.png ">
+                    </div>
+                    <div class="content">
+                        <h3>Exploring, Growing, And Thriving Together</h3>
+                        <p>Exploration and learning go hand-in-hand. When kids explore, they engage with their
+                            surroundings and develop a deeper understanding of the world. This natural curiosity drives
+                            them to ask questions, seek answers, and gain knowledge. At Kids Quizzland, we encourage
+                            this inquisitive spirit through a variety of interactive quizzes and activities.</p>
+                        <a href="pages/aboutus.html" class="btn">read more</a>
+                    </div>
+                </div>
+                </h1>
+        </section>
+        <!--about section end-->
+        <section class="quizz">
+            <div class="img-quizz">
+                <h4>Let's get learn and Explore<br> the little Geniuses!!!!!</h4>
+                <img src="https://landoftrivia.com/wp-content/uploads/2023/08/Kids-Multiple-Choice-Trivia-Questions.png"
+                    class="img-1" alt="img">
+            </div>
+            </section>
+
+            <section class="activities">
+                <h1 class="heading">Our <span>Activities</span></h1>
+              
+              
+              <div class="btn-container">
+                <img src="./images/homepage/img-2.png" class="gallary-img"  id="img" alt="img"/>
+                <img src="./images/homepage/back.png" class="buttonn btn-left" onclick="prev()" alt="img" />
+                <img src="./images/homepage/arrow-point-to-right.png" class="buttonn btn-right" onclick="next()" alt="img"/>
+              </div>
+              
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/homepage/activities1.png" alt="">
+                        <h3 id="font-color">Educational Quizz</h3>
+                        <p class="text-color">Hey there, Superstars! 🌟 Ready to your thinking caps some
+                            fun? Our English and Math
+                            Quiz <br>Adventure is for you! 🚀.</p>
+                        <a href="pages/educational-quizz.html" class="btn" id="btn-1"target="_blank" onclick="confirm('Do you want to start educational-quizz?')">Start Quizz</a>
+                    </div>
+                    <div class="box">
+                        <img src="images/homepage/games.gif" alt="">
+                        <h3 id="font-color">Games Quizz</h3>
+                        <p class="text-color">Awesome kids! Ready to have a blast? 🎊 Welcome to the Fun and Games Quiz,
+                            where laughter and
+                            learning go hand in hand.🌟</p>
+                        <a href="pages/game.html" class="btn" id="btn-1"target="_blank" onclick="confirm('Do you want to start game-quizz?')">Start Quizz</a>
+                        </div>
+                    <div class="box">
+                        <img src="images/homepage/gk.gif" alt="">
+                        <h3 id="font-color">GK Quizz</h3>
+                        <p class="text-color">Hey kids!🤗Let's learn some<br>cool and fun facts together!<br>General knowledge is all knowing
+                        interesting thing world around.</p>
+                        <a href="pages/gk-quizz.html" class="btn" id="btn-1"target="_blank" onclick="confirm('Do you want to start general-knowldge quizz?')">Start Quizz</a>
+                    </div>
+                </div>
+            </section>
+          <!--footer section start-->
+          <div class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <span id="name1">K</span><span id="name2">I</span><span id="name3">D</span><span
+                        id="name4">S</span><br><span id="text">Quizzland</span>
+                   
+                </div>
+
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="pages/aboutus.html"><i class="fas fa-caret-right"></i>Aboutus</a>
+                    <a href="pages/quizz-list.html"><i class="fas fa-caret-right"></i>Quizz-List</a>
+                    <a href="pages/contactus.html"><i class="fas fa-caret-right"></i>Contactus</a>
+                    <a href="pages/feedback.html"><i class="fas fa-caret-right"></i>Feedback</a>
+                </div>
+
+                <div class="box1" id="social-media">
+                    <h3>Connect With Us</h3>
+                    <a href="https://www.linkedin.com/feed/" target="blank">
+                        <img src="icon/linkdln.png" height="40px" class="social-media" alt="img">
+                    </a>
+                    <a href="https://github.com/nalineebodke10">
+                        <img src="icon/github.png" height="40px" class="social-media" alt="img">
+                    </a>
+                    <a href="#">
+                        <img src="icon/whatsapps.png" height="40px" alt="img">
+                    </a>
+                    <a href="#">
+                        <img src="icon/facebook.png" height="40px" class="social-media" alt="img">
+                    </a>
+                </div>
+
+                <div class="box ">
+                    <h3>Get in touch</h3>
+                    <a href="#" target="_blank"><i class="fas fa-caret-right"></i>+91 9876567888</a>
+                    <a href="#" target="_blank"><i class="fas fa-caret-right"></i>+91 7777777777</a>
+    
+                    <a href="mailto:dnyaneshwarsanap293@gmail.com"><i class="fas fa-caret-right"></i>kidsquizzland.com</a>
+                </div>
+               
+
+            </div>
+
+            <div class="credit"> &copy; copyright @ 2024 by <span>Kids Quizzland</span></div>
+        </div>
+         <!--footer section end-->
+</body>
+<script src="js/header.js"></script>
+<script src="js/script.js"></script>
+</html>
